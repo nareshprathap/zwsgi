@@ -54,7 +54,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'echo "Would deploy using RELEASE_VERSION=${env.RELEASE_VERSION}"'
+                sh "echo 'Would deploy using RELEASE_VERSION=${env.RELEASE_VERSION}'"
             }
         }
     }
